@@ -1,0 +1,14 @@
+
+
+wyy.py 测试使用的，地址路径是固定的
+
+打包成小程序方式
+
+pyinstaller  -D  zm.py -p web.py -p wangyiyun.py -p dirbc.py
+
+
+
+zm.py 为桌面弹窗，路径输入地址
+web.py 为浏览器进入，设置为网易云地址
+wangyiyun.py 网易云音乐下载的主程序，所有操作步骤
+dirbc.py  为文件目录创造，文件保存文件夹
